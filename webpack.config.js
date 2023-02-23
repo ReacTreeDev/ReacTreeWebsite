@@ -13,7 +13,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    contentBase: "./build",
+    static: "./build"
   },
   module: {
     rules: [
