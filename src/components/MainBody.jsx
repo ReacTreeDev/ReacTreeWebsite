@@ -23,7 +23,7 @@ const MainBody = () => {
           <a className='get-button' href='https://github.com/oslabs-beta/ReacTree/'>ReacTree
             <img className='get-logo' src={GitHubLogo}></img>
           </a>
-          <a className='get-button' href='https://marketplace.visualstudio.com'>Get ReacTree 
+          <a className='get-button' href='https://marketplace.visualstudio.com/items?itemName=ReacTreeDev.reactree'>Get ReacTree 
             <img className='get-logo' src={VsCodeLogo}></img>
           </a>
         </div>
