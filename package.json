@@ -1,13 +1,16 @@
 {
   "name": "reactree",
   "version": "1.0.0",
+  "homepage": "https://ReacTreeDev.github.io/reactreedev.github.io",
   "description": "Reactree website",
   "main": "./src/index.js",
   "engines": {
     "node": "16.17.0",
     "npm": "9.5.1"
-    },
+  },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "reactreedev.github.ios -d build",
     "build": "webpack",
     "dev": "webpack serve --mode development",
     "start": "webpack serve --mode production",
@@ -17,6 +20,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
