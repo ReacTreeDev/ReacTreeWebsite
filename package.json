@@ -10,7 +10,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "reactreedev.github.ios -d build",
+    "deploy": "reactreedev.github.io -d build",
     "build": "webpack",
     "dev": "webpack serve --mode development",
     "start": "webpack serve --mode production",
