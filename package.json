@@ -2,6 +2,7 @@
   "name": "reactree",
   "version": "1.0.0",
   "description": "Reactree website",
+  "homepage": ".",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
