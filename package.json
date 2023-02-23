@@ -2,7 +2,7 @@
   "name": "reactree",
   "version": "1.0.0",
   "description": "Reactree website",
-  "main": "./src/index.js",
+  "main": "index.js",
   "engines": {
     "node": "16.17.0",
     "npm": "9.5.1"
