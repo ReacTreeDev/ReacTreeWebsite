@@ -13,10 +13,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: {
-      directory: path.join(__dirname, "build"),
-    },
-    port: process.env.PORT || 3000,
+    contentBase: "./build",
   },
   module: {
     rules: [
