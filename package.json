@@ -1,7 +1,6 @@
 {
   "name": "reactree",
   "version": "1.0.0",
-  "homepage": "https://ReacTreeDev.github.io/reactreedev.github.io",
   "description": "Reactree website",
   "main": "./src/index.js",
   "engines": {
@@ -9,8 +8,6 @@
     "npm": "9.5.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "reactreedev.github.io -d build",
     "build": "webpack",
     "dev": "webpack serve --mode development",
     "start": "webpack serve --mode production",
